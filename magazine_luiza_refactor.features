@@ -1,0 +1,12 @@
+#language: pt
+
+ Funcionalidade: Selecionar um computador
+
+ Cenário: Escolher um computador no site magazine luiza
+ Dado que esteja no navegador
+ Quando acessar "https://www.magazineluiza.com.br/"
+ E quando pesquisar por computador
+ E selecionar um produto da página
+ Então a página do produto abrirá
+ E quando clicar em adicionar a sacola
+ Então o produto será adicionado ao carrinho de compras
